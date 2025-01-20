@@ -1,0 +1,3 @@
+- probing_data_gpt2-xl_corrected.xlsx was created from the original human annotation dataset probing_data_gpt2-xl.xlsx because the facts in the original dataset did not align perfectly with our version of Wikidata (version: 2021-01-04 with format YYYY-MM-DD). This alignment was done manually and fact that were not found in Wikidata were removed (17 facts were removed).
+- The result is a file named wikidata_triples_to_human_scores.json which is a mapping between wikidata triples and human assessment score
+- The script to create wikidata_triples_to_human_scores.json is convert_dongfacts_to_wikidata.ipynb
