@@ -9,7 +9,7 @@
 # Software description: A factual knowledge assessment method for large language models using distractors
 
 frozendict==2.3.8
-scikit-learn==1.3.1
+scikit-learn==1.5.0
 pymongo==4.5.0
 indexed-bzip2==1.5.0
 internetarchive==3.5.0
