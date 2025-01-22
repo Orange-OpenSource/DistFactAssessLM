@@ -1,4 +1,7 @@
 # Factual Knowledge Assessment of Language Models Using Distractors
+
+![image](https://github.com/user-attachments/assets/785cf87f-5608-4a2c-94d0-1dd18f162be1)
+
 [Paper](still_not_ready)
 
 Language models encode extensive factual knowledge within their parameters. The accurate assessment of this knowledge is crucial for understanding and improving these models. In the literature, factual knowledge assessment often relies on cloze sentences (e.g., "The capital of France ____"), which can lead to erroneous conclusions due to the complexity of natural language (out-of-subject continuations, the existence of many correct answers and the several ways of expressing them). 
