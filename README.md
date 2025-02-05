@@ -2,13 +2,13 @@
 
 ![image](https://github.com/user-attachments/assets/785cf87f-5608-4a2c-94d0-1dd18f162be1)
 
-[Paper](still_not_ready)
+[Paper](https://aclanthology.org/2025.coling-main.537/)
 
 Language models encode extensive factual knowledge within their parameters. The accurate assessment of this knowledge is crucial for understanding and improving these models. In the literature, factual knowledge assessment often relies on cloze sentences (e.g., "The capital of France ____"), which can lead to erroneous conclusions due to the complexity of natural language (out-of-subject continuations, the existence of many correct answers and the several ways of expressing them). 
 
 We introduced a new interpretable knowledge assessment method that mitigates these issues by leveraging distractors which are incorrect but plausible alternatives to the correct answer. Our method is evaluated against existing approaches, demonstrating solid alignment with human judgment and stronger robustness to verbalization artifacts.
 
-This repository aims to permit the reproduction of the results of our [paper](still_not_ready).
+This repository aims to permit the reproduction of the results of our [paper](https://aclanthology.org/2025.coling-main.537/).
 
 
 ### Setup environment
@@ -158,7 +158,29 @@ If you have a problem running our code, please let us know by opening an issue ;
 ## How to cite our work?
 
 ```
-PAPER INCOMING
+@inproceedings{ammar-khodja-etal-2025-factual,
+    title = "Factual Knowledge Assessment of Language Models Using Distractors",
+    author = "Ammar Khodja, Hichem  and
+      Ait gueni ssaid, Abderrahmane  and
+      Bechet, Frederic  and
+      Brabant, Quentin  and
+      Nasr, Alexis  and
+      Lecorv{\'e}, Gw{\'e}nol{\'e}",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.537/",
+    pages = "8043--8056",
+    abstract = "Language models encode extensive factual knowledge within their parameters. The accurate assessment of this knowledge is crucial for understanding and improving these models. In the literature, factual knowledge assessment often relies on cloze sentences, which can lead to erroneous conclusions due to the complexity of natural language (out-of-subject continuations, the existence of many correct answers and the several ways of expressing them). In this paper, we introduce a new interpretable knowledge assessment method that mitigates these issues by leveraging distractors{---}incorrect but plausible alternatives to the correct answer. We propose several strategies for retrieving distractors and determine the most effective one through experimentation. Our method is evaluated against existing approaches, demonstrating solid alignment with human judgment and stronger robustness to verbalization artifacts. The code and data to reproduce our experiments are available on GitHub."
+}
 ```
 
 ## Licence
