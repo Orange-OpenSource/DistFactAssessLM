@@ -31,7 +31,7 @@ hydra-core==1.2.0
 higher==0.2.1
 datasets==2.19.0
 python-dateutil==2.9.0.post0
-transformers==4.40.1
+transformers==4.48.0
 accelerate==0.29.3
 plotext==5.2.8
 nltk==3.8.1
