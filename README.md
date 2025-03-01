@@ -183,6 +183,6 @@ If you have a problem running our code, please let us know by opening an issue ;
 }
 ```
 
-## Licence
+## License
 
-Look for the LICENCE.txt file at the root of this project
+Look for the LICENSE.txt file at the root of this project
