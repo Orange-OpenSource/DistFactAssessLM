@@ -40,4 +40,3 @@ sortedcontainers==2.4.0
 jsonlines==4.0.0
 wikidataintegrator==0.9.30
 openpyxl==3.1.5
-multi-choices-parser==0.9.57

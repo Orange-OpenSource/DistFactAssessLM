@@ -24,6 +24,9 @@ pip install -r $SCRIPT_DIR/wfd_requirements.txt
 pip install git+https://github.com/epfl-dlab/transformers-CFG.git@main
 # echo "$SCRIPT_DIR/.." | tee $(python -c "import site;print(site.getsitepackages()[0])")/workspace.pth > /dev/null
 
+# Install multi-choices-parser
+pip install -e $SCRIPT_DIR/../multi-choices-parser
+
 # install marius
 # cd /root
 # git clone https://github.com/marius-team/marius.git
