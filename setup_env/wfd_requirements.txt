@@ -22,8 +22,6 @@ seaborn==0.12.2
 kaleido==0.2.1
 textual==0.41.0
 pydot==1.4.2
-qdrant-client==1.7.3
-pyspark==3.2.4
 nmslib
 cmake==3.28.4
 pytest==8.1.1
