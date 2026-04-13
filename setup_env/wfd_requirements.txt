@@ -24,7 +24,7 @@ textual==0.41.0
 pydot==1.4.2
 nmslib
 cmake==3.28.4
-pytest==8.1.1
+pytest==9.0.3
 hydra-core==1.2.0
 higher==0.2.1
 datasets==2.19.0
